@@ -8,7 +8,7 @@ document.getElementById('baixarLicao').addEventListener('click', () => {
     }
 
     // Formatar o nome do arquivo baseado na data selecionada
-    const arquivo = `downloads/${data}.PDF`;
+    const arquivo = `downloads/${data}.pdf`;
 
     // Verificar se o arquivo existe
     fetch(arquivo)
